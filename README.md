@@ -1,6 +1,6 @@
 # 03 JavaScript: Password Generator
 
-The Assignment was to create a password generator that can generate a password string ranging from 8 to 128 characters. The generator should also prompt whether the user wishes to include lower case alphabets, upper case alphabets, numbers and special characters. All the coding has been done Javascript file and the password generator has been successfully created. Snapshots below:
+The Assignment was to create a password generator that can generate a password string ranging from 8 to 128 characters. The generator should also prompt whether the user wishes to include lower case alphabets, upper case alphabets, numbers and special characters. All the coding has been done in Javascript file and the password generator has been successfully created. Snapshots below:
 
 ![Choose Character length](Assets/01.png)
 ![Alert user to choose at least one character property](Assets/02.png)
