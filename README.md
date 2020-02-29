@@ -1,55 +1,32 @@
 # 03 JavaScript: Password Generator
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+The Assignment was to create a password generator that can generate a password string ranging from 8 to 128 characters. The generator should also prompt whether the user wishes to include lower case alphabets, upper case alphabets, numbers and special characters. All the coding has been done Javascript file and the password generator has been successfully created. Snapshots below:
 
-If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
+![Choose Character length](Assets/01.png)
+![Alert user to choose at least one character property](Assets/02.png)
+![Include Lower Case](Assets/03.png)
+![Include Upper Case](Assets/04.png)
+![Include Numbers](Assets/05.png)
+![Include Special Characters](Assets/06.png)
+![Generated Password](Assets/07.png)
 
-## User Story
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+# PSEUDOCODE
 
-## Acceptance Criteria
+1. Variables to be created for Password length, lower case and upper case alphabets, numbers and special characters.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
+2. A while loop is to be created for the user to input the correct password length. Only numbers from 8-128 will be accepted.
 
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
+3. An alert and a while loop are to be created for the the user to accept atleast one of the upcoming properties for generating the password.
 
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
+4. Lower case alphabets, Upper case alphabets, Numbers and Special characters are to be inputed to different variables.
 
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
+5. All the above need to be inside a function.
 
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
+6. Another function needs to be created for a password string to be initialized and based on the user's options, the above character properties are to be included in this string.
 
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
+6. Now based on the password length, a random password needs to be generated from the password string and can be stored in another variable, say password output. This can be done inside a for loop and use Math.random property. The function should return the password output final value.
 
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+7. Last but not the least, all the character properties such as password length, lower case and upper case alphabets, numbers and special characters have to be reseted such that the process can be repeated multiple times.
 
-The following image demonstrates the application functionality:
-
-![password generator demo](./Assets/03-javascript-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-- The URL of the deployed application.
-
-- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Web URL: https://joshb4u.github.io/Hw3/
